@@ -1,0 +1,10 @@
+body {
+  max-width: 1350;
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+  background-image: url("https://static-asset-hosting.s3.amazonaws.com/test-projects/2022-frontend/bg_desktop.png");
+  overflow: scroll;
+  box-sizing: border-box;
+  outline: none;
+}
