@@ -1,8 +1,26 @@
+$white-color: #ffffff;
+$opacity_one: 1;
+$align-center: center;
+
 header {
   margin: 90px 0 0 50px;
   img {
     width: 100px;
     height: 51px;
-    opacity: 1;
+    opacity: $opacity_one;
   }
+}
+
+h1 {
+  font-family: "Writable Story";
+  font-weight: normal;
+  font-style: normal;
+  margin: 20px 0 0 368px;
+  width: 630px;
+  height: 117px;
+  letter-spacing: 0px;
+  color: $white-color;
+  opacity: $opacity_one;
+  text-align: $align-center;
+  font-size: 70px;
 }
