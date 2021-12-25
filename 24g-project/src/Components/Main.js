@@ -13,7 +13,7 @@ const Main = () => {
           gravida lacus.
         </p>
       </section>
-      <section className="all-cards">
+      <section className="recipes-images" >
         <DrinkRecipes />
       </section>
     </main>

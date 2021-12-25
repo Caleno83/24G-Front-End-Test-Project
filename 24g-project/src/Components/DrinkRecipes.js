@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import DrinkCard from "./DrinkCard";
 
 const DrinkRecipes = () => {
   const [drinksRecipes, setDrinksRecipes] = useState([]);
 
   useEffect(() => {
-      console.log("this is the fetch for drinksRecipes data")
+    console.log("this is the fetch for drinksRecipes data");
     axios
       .get(
         "https://assets.24g.com/public/2022-frontend-test-project/drinks.json"
@@ -19,7 +20,13 @@ const DrinkRecipes = () => {
       });
   }, []);
 
-  return <div></div>;
+  return (
+    <div className="all-cards">
+      {drinksRecipes.map((item) => (
+        <DrinkCard key={item.id} item={item} />
+      ))}
+    </div>
+  );
 };
 
 export default DrinkRecipes;
