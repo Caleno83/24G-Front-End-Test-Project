@@ -16,6 +16,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-left: 13px;
   h1 {
     font-family: "Writable Story";
     font-weight: normal;
@@ -26,10 +27,10 @@ main {
     letter-spacing: $letter-spacing-0;
     color: $white-color;
     opacity: $opacity_one;
-    text-align: $align-center;
     font-size: 70px;
   }
-  section {
+
+  .subtitle {
     margin: 20px 0 0 0;
     p {
       font-family: "Brandon Grotesque";
@@ -38,7 +39,7 @@ main {
       width: 630px;
       height: 85px;
       font-size: 20px;
-      padding: 0 10px 0 60px;
+      padding: 0 10px 0 10px;
       letter-spacing: $letter-spacing-0;
       text-align: $align-center;
       color: $white-color;

@@ -1,14 +1,16 @@
-
+import React from "react";
 import './App.scss';
 import Header from "./Components/Header";
 import Main from "./Components/Main";
 
 function App() {
   return (
-    <body>
+    <>
+    <div className="app">
       <Header />
       <Main />
-    </body>
+    </div>
+    </>
   );
 }
 
