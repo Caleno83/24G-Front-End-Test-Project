@@ -54,6 +54,7 @@ main {
   justify-content: space-around;
   text-align: center;
   flex-wrap: wrap;
+
   .images-front {
     border-radius: 5px;
     padding: 10px;
@@ -66,5 +67,119 @@ main {
     &:hover {
       margin-top: -10px;
     }
+  }
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: -50px;
+  background: rgba(0, 0, 0, 0.3) 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  box-shadow: 0px 3px 6px #0000004d;
+}
+
+.mymodal {
+  outline: none !important;
+  .info {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.image-logo {
+  float: right;
+  margin: -60px 40px 0 0;
+  img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+  }
+}
+
+.card {
+  width: 700px;
+  height: 519px;
+  margin: 150px 0 0 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #1f1f1f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #0000004d;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.card {
+  h1 {
+    font-family: "Writable Story";
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
+    color: $white-color;
+    width: 608px;
+    height: 117px;
+    text-align: center;
+    letter-spacing: $letter-spacing-0;
+    opacity: $opacity_one;
+  }
+}
+.info {
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 25px;
+  p {
+    font-family: "Brandon Grotesque";
+    font-weight: bold;
+    font-style: normal;
+    color: $white-color;
+    letter-spacing: 1.05px;
+    margin-left: -12px;
+    opacity: 1;
+  }
+  ul {
+    li {
+      font-family: "Brandon Grotesque";
+      font-weight: normal;
+      font-style: normal;
+      letter-spacing: $letter-spacing-0;
+      font-size: 16px;
+      color: $white-color;
+      opacity: $opacity_one;
+      text-align: left;
+    }
+  }
+  .circle {
+    list-style-type: circle;
+  }
+  .style-1 {
+    list-style-type: none;
+
+    li {
+      margin-left: -15px;
+      padding: 10px;
+    }
+  }
+  .style-2 {
+    list-style-type: none;
+    li {
+      margin-left: -12px;
+    }
+  }
+  .style-3 {
+    list-style-type: none;
+    li {
+      margin-left: -12px;
+    }
+  }
+  hr.rounded {
+    margin: 30px 0 20px 25px;
+    border-top: #989898;
+    border-width: 1px;
+    width: 590px;
   }
 }
