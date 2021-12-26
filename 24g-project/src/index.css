@@ -14,3 +14,11 @@ body {
   background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_tablet.png");
   }
 }
+
+@media screen and (max-width: 375px) { 
+  body {
+  background-image: url("https://assets.24g.com/public/2022-frontend-test-project/bg_mobile.png");
+  }
+}
+
+

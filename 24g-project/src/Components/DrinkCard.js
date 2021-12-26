@@ -29,6 +29,7 @@ const DrinkCard = ({ item }) => {
           className="mymodal"
           overlayClassName="overlay"
           isOpen={modalOpen}
+          ariaHideApp={false}
         >
           <div className="image-logo">
             <img
