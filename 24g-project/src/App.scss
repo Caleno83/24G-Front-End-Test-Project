@@ -63,5 +63,8 @@ main {
       width: 220px;
       height: 220px;
     }
+    &:hover {
+      margin-top: -10px;
+    }
   }
 }
