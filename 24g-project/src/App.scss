@@ -3,6 +3,7 @@ $opacity_one: 1;
 $align-center: center;
 $letter-spacing-0: 0px;
 
+//Desktop size screen 1366px
 header {
   margin: 90px 0 0 50px;
   img {
@@ -29,14 +30,6 @@ main {
     opacity: $opacity_one;
     font-size: 70px;
   }
-  @media screen and (max-width: 768px) {
-    h1 {
-      margin: 40px 30px 0 90px;
-      width: 590px;
-      height: 117px;
-      font-size: 60px;
-    }
-  }
 
   .subtitle {
     margin: 20px 0 0 0;
@@ -52,17 +45,6 @@ main {
       text-align: $align-center;
       color: $white-color;
       opacity: $opacity_one;
-    }
-  }
-  @media screen and (max-width: 768px) {
-    .subtitle {
-      p {
-        margin: 5px 0 0 1px;
-        width: 520px;
-        height: 85px;
-        font-size: 18px;
-        padding: 0 10px 0 10px;
-      }
     }
   }
 }
@@ -93,15 +75,6 @@ main {
         height: 160px;
       }
     }
-  }
-}
-@media screen and (max-width: 768px) {
-  .all-cards {
-    margin: 50px 40px 70px 30px;
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
-    flex-wrap: wrap;
   }
 }
 
@@ -219,6 +192,32 @@ main {
   }
 }
 
+//Table screen size 768px
+@media screen and (max-width: 768px) {
+  h1 {
+    margin: 40px 30px 0 40px;
+    width: 590px;
+    height: 117px;
+    font-size: 60px;
+  }
+  .subtitle {
+    p {
+      margin: 5px 0 0 1px;
+      width: 520px;
+      height: 85px;
+      font-size: 18px;
+      padding: 0 10px 0 10px;
+    }
+  }
+  .all-cards {
+    margin: 50px 40px 70px 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .image-logo {
     img {
@@ -279,6 +278,7 @@ main {
   }
 }
 
+//Mobile Screen size 375px
 @media screen and (max-width: 375px) {
   header {
     margin: 70px 0 0 30px;
@@ -333,14 +333,12 @@ main {
   }
 
   .card {
-    
     h1 {
       font-size: 65px;
       width: 200px;
       height: 300px;
       text-align: left;
       margin: 20px 0 0 -50px;
-  
     }
   }
   .info {
@@ -363,8 +361,6 @@ main {
     .style-1 {
       li {
         margin-left: -1px;
-
-        
       }
     }
     .style-2 {
