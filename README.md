@@ -8,11 +8,11 @@
 
 <h3>Submission Answers</h3>
 
-<a>Name: Jorge A Jimenez</a>
-<a>Date of Submission: December 26th, 2021</a>
-<a>Hours spent working on my project: 7.5 hours</a>
+<a>Name: Jorge A Jimenez</a>,
+<a>Date of Submission: December 26th, 2021</a>,
+<a>Hours spent working on my project: 7.5 hours</a>,
 <a>Intructions on how to run my project or a link to a self-hosted version:
-- After project is cloned, please cd to folder 24g-project, and to install all dependencies type npm install, and see the project, type npm start.
+- After project is cloned, please cd to folder 24G-Front-End-Test-Project, and later cd to 24g-project. To Install all dependencies type npm install, and to see the project, type npm start.
 </a>
 
 <h3>Things That I Learned</h3>
@@ -39,7 +39,6 @@ The only thing that I learned so much, and It took a little bit of time was crea
 
 
 ### 📄  [Pull Request](https://github.com/Caleno83/24G-Front-End-Test-Project/pull/1)
-###  💻  [Project Deployed Link]()
 
 
 ## Install
