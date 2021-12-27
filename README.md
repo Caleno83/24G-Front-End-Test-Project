@@ -18,7 +18,7 @@
 <h3>Things That I Learned</h3>
 
 <a>
-The only thing that I learned so much, and It took a little bit of time was creating modals, and adding all the information there from the get request.  It was nice learning something new as always
+The only thing that I learned so much, and It took a little bit of time was creating modals, and adding all the information there from the API Get Request.  It was nice learning something new as always
 </a>
 
 <h3>Things That Gave Me Difficulty</h3>
