@@ -27,7 +27,7 @@ The only thing that I learned so much, and It took a little bit of time was crea
 -one problem was that I got this error "warning-react-modal-app-element-is-not-defined-please-use-modal-setappeleme
 ".  I resolve this issue thanks to this article: https://stackoverflow.com/questions/48269381/warning-react-modal-app-element-is-not-defined-please-use-modal-setappeleme
 - other issues happened when I was tryng to create a card inside a modal, and it was a little difficult to added it because I was gettting opacity as the main mmodal, but I was trying to show the descriptiong to the Card Modal.  After working around, and checking few articles, I could fixed the problem
--Another problem that I encountered was trying to scroll the drinks description from the modal, and trying to block the scrolling from the background images.  After few documentation reading, I could found the right one, and learned what i was doing wrong, and how to do it the right way</a>
+-Another problem that I encountered was trying to scroll the drinks description from the modal, and trying to block the scrolling from the background images.  After few documentation readings, I found the right documentation, and learned what I was doing wrong, and how to do it the right way</a>
 
 
 <h4>Documentation that helped me with the Project</h4>
