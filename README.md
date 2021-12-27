@@ -8,11 +8,10 @@
 
 <h3>Submission Answers</h3>
 
-<a>
-Name: Jorge A Jimenez
-Date of Submission: December 26th, 2021
-Hours spent working on my project: 7.5 hours
-Intructions on how to run my project or a link to a self-hosted version:
+<a>Name: Jorge A Jimenez</a>
+<a>Date of Submission: December 26th, 2021</a>
+<a>Hours spent working on my project: 7.5 hours</a>
+<a>Intructions on how to run my project or a link to a self-hosted version:
 - After project is cloned, please cd to folder 24g-project, and to install all dependencies type npm install, and see the project, type npm start.
 </a>
 
