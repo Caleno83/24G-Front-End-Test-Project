@@ -42,7 +42,7 @@ The only thing that I learned so much, and It took a little bit of time was crea
 
 
 ### 📄  [Pull Request](https://github.com/Caleno83/24G-Front-End-Test-Project/pull/1)
-
+### 💻 [Project Hosting Site](https://24g-take-home-project.netlify.app/)
 
 ## Install
 
