@@ -10,7 +10,7 @@
 
 <a>Name: Jorge A Jimenez</a>,
 <a>Date of Submission: December 26th, 2021</a>,
-<a>Date of ReSubmission: December 30th, 2021</a>
+<a>Date of ReSubmission: December 31, 2021</a>
 <a>On my resubmitted project, I made small changes on the scss file as cleaning up and organizing the code, and changed margin on table and mobile Modal for better look. You can see the changes on Pull Request #2(Link attached below). Also, I added a deployed link of the project.</a>
 <a>Hours spent working on my project: 8 hours</a>,
 <a>Intructions on how to run my project or a link to a self-hosted version:
