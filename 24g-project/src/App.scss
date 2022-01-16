@@ -184,7 +184,7 @@ main {
 }
 
 //Table screen size 768px
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   main {
     h1 {
       margin: 40px 30px 0 40px;
@@ -275,7 +275,7 @@ main {
 }
 
 //Mobile Screen size 375px
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   header {
     margin: 70px 0 0 30px;
     img {
